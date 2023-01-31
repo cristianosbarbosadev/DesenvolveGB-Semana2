@@ -26,17 +26,36 @@
 
   <main>
     <div class="container__contato">
-      <label for="nome">Nome</label>
+      <label class="formulario" for="nome">Nome</label>
       <input id="nome" type="text"  placeholder="Digite seu nome aqui">
 
-      <label for="email">E-mail</label>
+      <label class="formulario" for="email">E-mail</label>
       <input id="email" type="email" placeholder="Digite seu e-mail aqui">
 
-      <label for="telefone">Telefone</label>
+      <label class="formulario" for="telefone">Telefone</label>
       <input id="telefone" type="tel" placeholder="Digite seu telefone aqui">
 
-      <label for="mensagem">Mensagem</label>
+      <label class="formulario" for="mensagem">Mensagem</label>
       <textarea id="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+
+      <div>
+      
+      <p>Como prefere nosso contato?</p>
+
+        <label for="radio-email">email</label>
+        <input type="radio" name="contato" id="radio-email" value="email">
+
+        <label for="radio-telefone">telefone</label>
+        <input type="radio" name="contato" id="radio-telefone" value="telefone">
+
+        <label for="radio-whatsapp">whatsapp</label>
+        <input type="radio" name="contato" id="radio-whatsapp" value="whatsapp">
+
+      </div>
+
+      <label><input type="checkbox"> Gostaria de receber nossas novidades? </label>
+
+      <button class="formulario__botao" type="submit">Enviar</button>
     </div>
   </main>
 
