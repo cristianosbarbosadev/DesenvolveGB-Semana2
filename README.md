@@ -1,4 +1,4 @@
-# DesenvolveGB-Semana1 | Programa Desenvolve GB - Alura 
+# DesenvolveGB-Semana2 | Programa Desenvolve GB - Alura 
 
 Programa gratuito de formação e inclusão de talentos em tecnologia do Grupo Boticário
  
@@ -19,14 +19,14 @@ Programa gratuito de formação e inclusão de talentos em tecnologia do Grupo B
 
 ### O Desafio
 
-Desenvolver uma página de serviços (Barbearia Alura):
+Dar continuidade ao projeto da [Semana1 Barbearia Alura](https://github.com/cristianosbarbosadev/DesenvolveGB-Semana1):
 
-- Nessa página, vamos ter um cabeçalho complexo com imagem e item de menu.
-- Vamos ter ainda uma lista de itens de produtos, cada um desses itens, extremante complexo, com título, imagem e texto de descrição. Por fim, um rodapé com uma imagem e um texto sobre Copyright.
+- Nessa página, vamos ter um desenvolvimento maior das tags para formulário.
+- Passar por todos os itens, entender absolutamente tudo sobre formulário e tabela, como eles funcionam, como se comportam, como que nós criamos tags, marcamos esses elementos direito com CSS e temos no final essa página completa..
 
 ### Captura de Tela
 
-![](./captura_barbearia.jpg)
+![](https://github.com/cristianosbarbosadev/DesenvolveGB-Semana1/blob/473aa6434d868b02cc3ed36039b207e4fbe4ffb7/captura_barbearia.png)
 
 [Google Drive](https://drive.google.com/file/d/1aCWiJtwp93kT8X65MRffxP_TSkGICueo/view?usp=share_link)
 
@@ -44,9 +44,9 @@ Desenvolver uma página de serviços (Barbearia Alura):
 
 ### O que aprendi
 
-Temos uma página completa, uma página com os nossos itens de produto, nossa imagem como logo, nosso menu de navegação e nosso rodapé, finalizando esse conteúdo. Eu espero que você tenha aprendido um pouco mais sobre HTML e CSS e como aplicar isso no seu dia-a-dia.
+Temos uma página completa, uma página com os nossos itens de produto, nossa imagem como logo, nosso menu de navegação e nosso rodapé e formulário de contato finalizando esse conteúdo. Eu espero que você tenha aprendido um pouco mais sobre HTML e CSS e como aplicar isso no seu dia-a-dia.
 
-## Autor @Cristiano Barbosa 
+## Autor [@CristianoBarbosa.Dev](https://www.linkedin.com/in/cristianosantosbarbosa/)
 
 ## Agradecimentos
 
