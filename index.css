@@ -100,4 +100,11 @@ footer {
   width: 150px;
 }
 
+.container__contato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 940px;
+  height: 400px;
+}
 
