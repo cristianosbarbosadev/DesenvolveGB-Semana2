@@ -129,5 +129,23 @@ form label, form legend{
   margin: 20px 0;
 }
 
+.formulario__botao{
+  margin-bottom: 20px;
+  width: 40%;
+  padding: 15px 0;
+  background: #7e7e7e;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s background;
+}
+
+.formulario__botao:hover{
+  background: #1a1a1a;
+}
+
 
 
