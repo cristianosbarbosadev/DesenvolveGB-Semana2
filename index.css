@@ -140,11 +140,12 @@ form label, form legend{
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: 1s background;
+  transition: 1s all;
 }
 
 .formulario__botao:hover{
   background: #1a1a1a;
+  transform: scale(1.2);
 }
 
 
