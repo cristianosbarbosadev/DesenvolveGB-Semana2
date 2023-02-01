@@ -39,23 +39,23 @@
         <label class="formulario" for="mensagem">Mensagem</label>
         <textarea id="mensagem" rows="10" placeholder="Digite sua mensagem aqui" class="input-padrao" required></textarea>
       
-        
-        <p>Como prefere nosso contato?</p>
+        <fieldset>
+        <legend>Como prefere nosso contato?</legend>
         <label for="radio-email"> <input type="radio" name="contato" id="radio-email" value="email"> email</label>
         
         <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone" value="telefone"> telefone</label>
         
         <label for="radio-whatsapp"> <input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" checked> whatsapp</label>
+        </fieldset>
         
-        
-        <div>
-          <p>Qual horario você prefere ser atendido?</p>
+        <fieldset>
+          <legend>Qual horario você prefere ser atendido?</legend>
           <select>
             <option>Manhã</option>
             <option>Tarde</option>
             <option>Noite</option>
           </select>
-        </div>
+        </fieldset>
         
         <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades? </label>
 
