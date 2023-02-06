@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 
-#banner {
+.banner {
 	width:100%;
 }
 
@@ -49,16 +49,29 @@ nav a:hover {
 }
 
 .titulo-principal {
-	padding-left: 20px;
+	text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
 }
 
-.titulo-centralizado {
-	text-align: center;
-	font-size: 28px;
+.principal p {
+	font-weight: bold;
 }
 
-p {
-	text-align: center;
+.principal strong{
+  font-weight: bold;
+}
+
+.principal em{
+  font-style: italic;
+}
+
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 15px;
 }
 
 #missao {
@@ -89,7 +102,7 @@ ul {
 }
 
 .imagembeneficios {
-	width: 30%;
+	width: 60%;
 	border-radius: 50px;
 }
 
