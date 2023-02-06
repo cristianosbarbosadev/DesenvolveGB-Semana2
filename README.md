@@ -33,7 +33,7 @@ Dar continuidade ao projeto da [Semana1 Barbearia Alura](https://github.com/cris
 
 ### Links
 
-- Vercel: [Verifique a página publicada](https://desenvolve-gb.vercel.app/)
+- Vercel: [Verifique a página publicada](https://desenvolve-gb-semana2.vercel.app/)
 
 ## Meu Processo
 
