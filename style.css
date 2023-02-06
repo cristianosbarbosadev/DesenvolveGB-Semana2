@@ -124,9 +124,15 @@ ul {
 	margin-right: 15%;
 }
 
-.imagembeneficios {
+.imagem-beneficios {
 	width: 60%;
+  opacity: 1;
+  transition: 400ms;
 	border-radius: 15px;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.5;
 }
 
 .mapa {
