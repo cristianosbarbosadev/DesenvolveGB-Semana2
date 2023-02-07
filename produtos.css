@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+.menu{
+  display: inline;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 0 0 15px;
+}
+
+nav a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/* Produtos */
+
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li{
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+}
+
+.produtos li:hover{
+  border-color: #c78c19;
+}
+
+.produtos li:active{
+  border-color: #088c19;
+}
+
+.titulo-produtos{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos li:hover h2{
+  font-size: 34px;
+}
+
+.produto-descricao{
+  font-size: 18px;
+}
+
+.produto-preco{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: url(./bg.jpg);
+  padding: 40px 0;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+.logofooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github{
+  width: 150px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .produtos, main{
+        width: auto;
+    }
+
+    .imagem-produtos{
+      width: 150px;
+    }
+
+    .titulo-produtos{
+      font-size: 20px;
+    }
+
+    .produto-descricao{
+      font-size: 14px;
+    }
+
+    .produto-preco{
+      font-size: 18px;
+    }
+
+    .produtos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .produtos li {
+      width: 60%;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .github{
+      width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caixa, .principal, .produtos, main{
+        width: auto;
+    }
+
+    .imagem-produtos{
+      width: 150px;
+    }
+
+    .titulo-produtos{
+      font-size: 20px;
+    }
+
+    .produto-descricao{
+      font-size: 14px;
+    }
+
+    .produto-preco{
+      font-size: 18px;
+    }
+
+    .produtos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .produtos li {
+      width: 60%;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .github{
+      width: 100px;
+    }
+}
