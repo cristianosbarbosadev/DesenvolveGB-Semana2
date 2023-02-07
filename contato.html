@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato - Barbearia Alura</title>
-  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contato.css">
   <link rel="stylesheet" href="reset.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
       <h1><img src="./logo.png" alt="Logo da Alura Barbearia"></h1>
       
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="produtos.html">Produtos</a> </li>
           <li><a href="contato.html">Contato</a></li>
@@ -25,7 +26,7 @@
   </header>
 
   <main>
-    <form>
+    <form action="send_email.php" method="post">
       <div class="container__contato">
         <label class="formulario" for="nome">Nome</label>
         <input id="nome" type="text"  placeholder="Digite seu nome aqui" class="input-padrao" required>
@@ -59,22 +60,24 @@
         
         <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades? </label>
 
+        <button class="formulario__botao" type="submit">Enviar</button>
       </div>
-      <button class="formulario__botao" type="submit">Enviar</button>
     </form>
 
-    <table>
+    <table class="container__contato">
       <thead>
         <tr>
           <th>Dia</th>
           <th>Horário</th>
         </tr>
       </thead>
+
       <tbody>
         <tr>
           <td>Segunda</td>
           <td>8h às 20h</td>
         </tr>
+
         <tr>
           <td>Terça</td>
           <td>8h às 20h</td>
