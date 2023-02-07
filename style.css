@@ -62,7 +62,10 @@ nav a:hover {
 }
 
 .principal p {
-	font-weight: bold;
+	font-weight: 300;
+  line-height: 1.3em;
+  text-align: justify;
+  margin: 0 10px 0 10px;
 }
 
 .principal strong{
@@ -76,8 +79,8 @@ nav a:hover {
 .utensilios{
   width: 120px;
   float: left;
-  margin: 0 20px 20px 0;
   border-radius: 15px;
+  margin: 20px 20px 0 0;
 }
 
 #missao {
@@ -208,6 +211,11 @@ footer {
     .imagem-beneficios{
         width: 80%;
     }
+
+    .utensilios{
+    margin: 20px 20px 20px 20px;
+
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -231,5 +239,9 @@ footer {
 
     .imagem-beneficios{
         width: 80%;
+    }
+
+    .utensilios{
+    margin: 20px 20px 20px 20px;
     }
 }
